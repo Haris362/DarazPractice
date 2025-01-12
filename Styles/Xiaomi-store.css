@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --primary-color:#F85606;
+    --text-color:white;
+    --background-color:#FFE1D2;
+    --border-color:rgb(126, 113, 113);
+}
+body{
+    background-color: aqua;
+}

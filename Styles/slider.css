@@ -1,0 +1,240 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.scroll-image-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+    position: relative;
+    z-index: -1;
+}
+.slider{
+    width: 60rem;
+    height: 24.3rem;
+    aspect-ratio: 12/2;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.slider img{
+    width: 60rem;
+    height: 24.2rem;
+    animation: slider 14s infinite;
+}
+@keyframes slider {
+    0% {
+        transform:translatex(-0%);
+    }
+
+    5% {
+        transform: translateX(-0%);
+    }
+
+    10% {
+        transform: translateX(-0%);
+    }
+
+    15% {
+        transform: translateX(-100%);
+    }
+
+    20% {
+        transform: translateX(-100%);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    30% {
+        transform: translateX(-200%);
+    }
+
+    35% {
+        transform: translateX(-200%);
+    }
+
+    40% {
+        transform: translateX(-200%);
+    }
+
+    45% {
+        transform: translateX(-300%);
+    }
+
+    50% {
+        transform: translateX(-300%);
+    }
+
+    55% {
+        transform: translateX(-300%);
+    }
+
+    60% {
+        transform: translateX(-400%);
+    }
+
+    65% {
+        transform: translateX(-400%);
+    }
+
+    70% {
+        transform: translateX(-400%);
+    }
+
+    75% {
+        transform: translateX(-500%);
+    }
+
+    80% {
+        transform: translateX(-500%);
+    }
+
+    85% {
+        transform: translateX(-500%);
+    }
+
+    90% {
+        transform: translateX(-600%);
+    }
+
+    95% {
+        transform: translateX(-600%);
+    }
+    100% {
+        transform: translateX(-0%);
+    }
+}
+
+.daraz-logo {
+    width: 50%;
+}
+
+.spin-image {
+    width: 50%;
+}
+
+.sale-image {
+    width: 40%;
+}
+
+.daraz-logo {
+    width: 25px;
+    padding: 15px 10px;
+}
+
+.img-text-div {
+    display: flex;
+    align-items: center;
+}
+.daraz-logo-div-qrcode {
+    /* background: linear-gradient(90deg, #fff, hsla(0, 0%, 100%, 0)), linear-gradient(179.27deg, #ffedd6 .83%, #fcbadd 46.78%, #fff 99.57%), linear-gradient(0deg, #ffffff, #fff); */
+    height: 387px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.rated-div {
+    background: linear-gradient(to bottom, #FE7722, #FC5C77, #FC56A5);
+    overflow: hidden;
+    width: 80%;
+    height: 45%;
+    margin: 2px 14px;
+    border-radius: 6px;
+}
+
+#star-logo {
+    color: rgb(255, 237, 204);
+    font-size: 15px;
+    overflow: visible;
+}
+
+.star-text {
+    font-size: 12px;
+    color: rgb(255, 237, 204);
+}
+
+.rated-star-img-div {
+    display: flex;
+    align-items: center;
+    padding: 8px 5px;
+}
+
+.delivery-images-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 26px 30px;
+}
+
+#delivery-logo {
+    width: 37px;
+}
+
+#discount-logo {
+    width: 37px;
+}
+
+.delivery-logo-div {
+    display: flex;
+    color: var(--text-color);
+    gap: 10px;
+}
+
+.discount-logo-div {
+    display: flex;
+    color: var(--text-color);
+    gap: 10px;
+}
+
+.delivery-logo-text {
+    font-size: 15px;
+}
+
+.download-text {
+    color: rgb(255, 225, 169);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.qr-code-img {
+    width: 6rem;
+}
+.qr-code-image-playstore-div {
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+}
+
+.play-store-apple-store-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.apple-text {
+    font-size: 10px;
+}
+
+.appstore-text {
+    font-size: 10px;
+}
+
+.apple-store-div {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.play-store-div {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+}

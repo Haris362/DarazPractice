@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.cards{
+    height: 100%;
+}
+h5{
+    font-size: 30px;
+    font-weight: 350;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+.cards-div{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.cards-div img{
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+}
+.cards-div h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+.cards-div div:hover{
+    box-shadow: 0.8px 0.8px 1px 1px var(--border-color);
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.cards-div p{
+    color: var(--primary-color);
+}
+.discount-prize-card2-div{
+    display: flex;
+}
+.first-prize-card2{
+    font-weight: 450;
+    color: var(--border-color);
+}
+.discount-card2{
+    margin-left: 6px;
+    font-weight: 400;
+}
+.discount-prize-card1-div{
+    display: flex;
+}
+.first-prize-card1{
+    font-weight: 450;
+    color: var(--border-color);
+}
+.discount-card1{
+    margin-left: 6px;
+    font-weight: 400;
+}
+s{
+    font-size: 12px;
+}
+.discount-prize-card3-div{
+    display: flex;
+}
+.first-prize-card3{
+    font-weight: 450;
+    color: var(--border-color);
+}
+.discount-card3{
+    margin-left: 6px;
+    font-weight: 400;
+}
+.discount-prize-card4-div{
+    display: flex;
+}
+.first-prize-card4{
+    font-weight: 450;
+    color: var(--border-color);
+}
+.discount-card4{
+    margin-left: 6px;
+    font-weight: 400;
+}
+.discount-prize-card5-div{
+    display: flex;
+}
+.first-prize-card5{
+    font-weight: 450;
+    color: var(--border-color);
+}
+.discount-card5{
+    margin-left: 6px;
+    font-weight: 400;
+}
+.discount-prize-card6-div{
+    display: flex;
+}
+.first-prize-card6{
+    font-weight: 450;
+    color: var(--border-color);
+}
+.discount-card6{
+    margin-left: 6px;
+    font-weight: 400;
+}
